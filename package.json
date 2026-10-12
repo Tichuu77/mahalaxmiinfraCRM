@@ -1,0 +1,39 @@
+{
+  "name": "mahalaxmi-infra-crm",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "@tanstack/react-query": "^5.59.0",
+    "bcryptjs": "^2.4.3",
+    "bullmq": "^5.14.0",
+    "clsx": "^2.1.1",
+    "ioredis": "^5.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.3",
+    "lucide-react": "^0.447.0",
+    "mongoose": "^8.7.0",
+    "next": "14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.0",
+    "recharts": "^2.13.0",
+    "tailwind-merge": "^2.5.3",
+    "zod": "^3.23.8",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "mongodb-memory-server": "^11.3.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  }
+}

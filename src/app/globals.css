@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#f6f9f7] text-brand-950 antialiased font-sans selection:bg-brand-700 selection:text-white;
+  }
+}
+
+/* Custom subtle scrollbar in brand tones */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f6f3;
+}
+::-webkit-scrollbar-thumb {
+  background: #c2d7cd;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #90b3a3;
+}
